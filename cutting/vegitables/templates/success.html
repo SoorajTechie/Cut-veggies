@@ -1,0 +1,43 @@
+{% extends 'index.html' %}
+{% block title %}Order Success{% endblock %}
+
+{% block content %}
+<body  style="background-color:#F5F5F5;">
+<style>
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .order-details p {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    .total-amount {
+        font-size: 20px;
+        font-weight: bold;
+        color: #28a745;
+    }
+</style>
+<div class="container">
+    <center><h3>Order Success</h3></center>
+    <hr>
+    <div class="order-details">  
+        <p><strong>Vegetable:  </strong> {{ order.name }}</p>
+        <p><strong>Quantity in kg:  </strong> {{ order.quantity }}</p>
+        <p><strong>Delivery address:</strong> {{ order.address }}</p>
+        <p class="total-amount">Total Amount: ₹{{ order.total_amount }}</p>
+    </div>
+    <hr>
+    <blockquote class="blockquote">Thank you for your order! We will process it shortly.<br>
+        <hr>
+    if you want to cancel the order kindly <a href={% url "contact" %}>contact</a> our team</blockquote>
+</div>
+
+</body>
+{% endblock %}

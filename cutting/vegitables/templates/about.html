@@ -1,0 +1,72 @@
+{% extends "index.html" %}
+
+{% block title %}About Us{% endblock %}
+
+{% block content %}
+
+<style>
+
+
+    /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+.about-container, .credits-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.about-container p, .credits-container p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.credits-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.credits-container ul li {
+    font-size: 20px;
+    color: #007bff;
+    margin: 10px 0;
+}
+
+.credits-container ul li a.highlight {
+    font-size: 24px; /* Increased font size */
+    color: #007bff;
+}
+
+.credits-container ul li a.highlight:hover {
+    text-decoration: underline;
+}
+
+</style>
+<center><h3>About Us</h3></center>
+<div class="about-container">
+    <p>Welcome to our website, your one-stop solution for fresh and chopped vegetables delivered right to your doorstep. Our mission is to provide high-quality, fresh vegetables that are ready to use, saving you time and effort in your meal preparation.</p>
+    <p>We pride ourselves on our fast delivery service, ensuring that you receive your vegetables in the freshest state possible. Whether you are a busy professional, a home cook, or just looking for convenience, our service is designed to make your life easier.</p>
+    <p>In the near future, we plan to expand our services to offer vegetables specifically prepared for various dishes, making your cooking experience even more seamless and enjoyable.</p>
+    <p>Thank you for choosing us for your vegetable needs. We are committed to providing you with the best service and look forward to serving you.</p>
+</div>
+
+<center><h3>Credits</h3></center>
+<div class="credits-container">
+    <p>This website is developed and maintained by creators,
+         <a href="https://www.linkedin.com/in/sooraj-naduvil-purakkal-bb0366257/" class="highlight"><strong>Sooraj N P  </strong></a> and <a href="https://www.linkedin.com/in/muhammed-farhan-7b65342b7/" class="highlight"><strong>Muhammed Farhan</strong></a></li>
+           
+    </p>
+    <p>The rights of this website are attributed to them.</p>
+</div>
+{% endblock content %}
