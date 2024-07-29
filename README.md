@@ -14,6 +14,9 @@ Thank you for choosing us for your vegetable needs. We are committed to providin
 A live demo of the project is available at: https://cutveggies.pythonanywhere.com/
 
 # Screenshots
+
+
+![Screenshot (11)](https://github.com/user-attachments/assets/1b2a1555-8963-4c30-a1c5-db80355ef5d6)
 ![Screenshot (12)](https://github.com/user-attachments/assets/c831e5ad-e7a0-4704-857c-026da5144e97)
 ![Screenshot (13)](https://github.com/user-attachments/assets/b76ce9cf-4e44-43a1-98ef-a28052550faa)
 ![Screenshot (14)](https://github.com/user-attachments/assets/11da8e8a-89b2-484b-bbe7-69ddbb79d604)
