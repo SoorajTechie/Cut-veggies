@@ -20,7 +20,7 @@ This project is built using Django. To get started, follow the instructions belo
 
 git clone https://github.com/SoorajTechie/Cut-veggies.git
 
-cd your repository
+cd cutting
 
 Create and activate a virtual environment:
 
