@@ -14,6 +14,10 @@ Thank you for choosing us for your vegetable needs. We are committed to providin
 A live demo of the project is available at: https://cutveggies.pythonanywhere.com/
 
 # Screenshots
+![Screenshot (12)](https://github.com/user-attachments/assets/c831e5ad-e7a0-4704-857c-026da5144e97)
+![Screenshot (13)](https://github.com/user-attachments/assets/b76ce9cf-4e44-43a1-98ef-a28052550faa)
+![Screenshot (14)](https://github.com/user-attachments/assets/11da8e8a-89b2-484b-bbe7-69ddbb79d604)
+![Screenshot (15)](https://github.com/user-attachments/assets/7b2a84f4-8c0a-4ca3-b6ac-ac490f1125cb)
 
 # Installation
 This project is built using Django. To get started, follow the instructions below:
