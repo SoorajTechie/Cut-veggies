@@ -11,7 +11,7 @@ In the near future, we plan to expand our services to offer vegetables specifica
 Thank you for choosing us for your vegetable needs. We are committed to providing you with the best service and look forward to serving you.
 
 # Demo
-A live demo of the project is available at: cutveggies.pythonanywhere.com
+A live demo of the project is available at: https://cutveggies.pythonanywhere.com/
 
 # Installation
 This project is built using Django. To get started, follow the instructions below:
@@ -19,12 +19,13 @@ This project is built using Django. To get started, follow the instructions belo
 # Clone the repository:
 
 git clone https://github.com/SoorajTechie/Cut-veggies.git
-# cd yourrepository
+cd your repository
 
 Create and activate a virtual environment:
 
 python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
+
+source env/bin/activate    #On Windows use `env\Scripts\activate`
 # Install the required packages:
 
 pip install -r requirements.txt
