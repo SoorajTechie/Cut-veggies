@@ -1,6 +1,6 @@
 
 
-#Cutveggies - Fresh and Chopped Vegetables Delivery Service
+# Cutveggies - Fresh and Chopped Vegetables Delivery Service
 
 Welcome to our website, your one-stop solution for fresh and chopped vegetables delivered right to your doorstep. Our mission is to provide high-quality, fresh vegetables that are ready to use, saving you time and effort in your meal preparation.
 
@@ -10,44 +10,36 @@ In the near future, we plan to expand our services to offer vegetables specifica
 
 Thank you for choosing us for your vegetable needs. We are committed to providing you with the best service and look forward to serving you.
 
-Demo
+# Demo
 A live demo of the project is available at: cutveggies.pythonanywhere.com
 
-Installation
+# Installation
 This project is built using Django. To get started, follow the instructions below:
 
-#Clone the repository:
+# Clone the repository:
 
-Copy code
-git clone https://github.com/yourusername/yourrepository.git
-cd yourrepository
+git clone https://github.com/SoorajTechie/Cut-veggies.git
+# cd yourrepository
+
 Create and activate a virtual environment:
 
-sh
-Copy code
 python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
-Install the required packages:
+# Install the required packages:
 
-sh
-Copy code
 pip install -r requirements.txt
-Apply migrations:
 
-sh
-Copy code
+# Apply migrations:
+
 python manage.py migrate
-Run the development server:
+# Run the development server:
 
-sh
-Copy code
 python manage.py runserver
-Credits
+# Credits
 All credits for the development of this website are preserved to me.
 
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-For any inquiries or further assistance, please contact [yourname@example.com].
+For any inquiries or further assistance, please contact soorajtechie.github.io.
 
-Thank you for choosing our service!
