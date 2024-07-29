@@ -13,6 +13,8 @@ Thank you for choosing us for your vegetable needs. We are committed to providin
 # Demo
 A live demo of the project is available at: https://cutveggies.pythonanywhere.com/
 
+# Screenshots
+
 # Installation
 This project is built using Django. To get started, follow the instructions below:
 
